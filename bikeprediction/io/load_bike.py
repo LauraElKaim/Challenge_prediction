@@ -9,4 +9,4 @@ class load_bike:
   @staticmethod
   def save_as_df():
     df_bikes = pd.read_csv(path_target, na_values="", low_memory=False, converters={'data': str, 'heure': str})
-    return df_bikes.iloc[:,0:4].dropna()
+    return df_bikes
