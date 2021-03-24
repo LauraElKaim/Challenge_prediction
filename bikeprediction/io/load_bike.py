@@ -4,9 +4,9 @@ from bikeprediction.io import url_db, path_target
 
 class load_bike:
   def __init__(self, url=url_db, target_name=path_target):
-    download(url, target_name, replace=False)
+    download(url, target_name, replace=True)
   
   @staticmethod
   def save_as_df():
-    df_bikes = pd.read_csv(path_target, na_values="", low_memory=False)
-    return df_bikes
+    df_bikes = pd.read_csv(path_target, na_values="", low_memory=False, converters={'data': str, 'heure': str})
+    return df_bikes.iloc[:,0:4].dropna()
