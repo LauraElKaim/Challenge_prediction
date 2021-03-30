@@ -3,6 +3,8 @@ from bikeprediction import data
 from zipfile import ZipFile
 import shutil
 import pandas as pd
+import json
+from pandas import json_normalize
 
 def load_file (self):
         with ZipFile(self, 'r') as zip:
@@ -17,7 +19,3 @@ def load_file (self):
         "MMM_EcoCompt_XTH19101158_Archive2020.json"]
         for file in files:
                 shutil.move(file, "bikeprediction/data")
-
-def save_json_df(self):
-        df = pd.read_json(self)
-        return df
