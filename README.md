@@ -11,12 +11,14 @@ For the **visualization part**, we will use the data from http://data.montpellie
 
 &nbsp;
 To see the visualization with Jupyter nbviewer you can click on the image.  
-Or to see the visualization with Binder you can click on the incone binder below the image.  
+Or to see the visualization with Binder you can click on the incone binder below the image (available for internet explorer and microsoft edge, for firefox read below).  
 The page may take some time to start and you may have to trust the notebook to see the map.   
-The source is available in the notebooks repository in `.ipynb` format.
+The source is available in the notebooks repository at `.ipynb` format.
 
 [![](bikeprediction/vis/mymap.png)](https://nbviewer.jupyter.org/github/LauraElKaim/Challenge_prediction/blob/main/notebooks/mymap.ipynb)  
 [![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/lauraelkaim-challenge_prediction-3dfd0rt9/notebooks/notebooks/mymap.ipynb?#)
+
+If you use firefox the link to Binder is the following : https://hub-binder.mybinder.ovh/user/lauraelkaim-challenge_prediction-ekc6odca/notebooks/notebooks/mymap.ipynb
 
 &nbsp;
 To compile the `script.py` file you can clone the git repository or download the bikeprediction package available at the following link : https://test.pypi.org/project/bikeprediction-elk/0.0.1/  
