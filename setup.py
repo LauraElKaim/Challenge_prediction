@@ -1,5 +1,5 @@
 from setuptools import setup
-from biketrauma import __version__ as current_version
+from bikeprediction import __version__ as current_version
 
 setup(
   name='bikeprediction_elk',
