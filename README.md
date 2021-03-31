@@ -16,7 +16,7 @@ The page may take some time to start and you may have to trust the notebook to s
 The source is available in the notebooks repository at `.ipynb` format.
 
 [![](bikeprediction/vis/mymap.png)](https://nbviewer.jupyter.org/github/LauraElKaim/Challenge_prediction/blob/main/notebooks/mymap.ipynb)  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/lauraelkaim-challenge_prediction-3dfd0rt9/notebooks/notebooks/mymap.ipynb?#)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LauraElKaim/Challenge_prediction/e67d5f234f880789fef22585a1d4706bbead7938?filepath=notebooks%2Fmymap.ipynb)
 
 If you use firefox the link to Binder is the following : https://hub-binder.mybinder.ovh/user/lauraelkaim-challenge_prediction-ekc6odca/notebooks/notebooks/mymap.ipynb
 
