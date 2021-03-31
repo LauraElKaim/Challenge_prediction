@@ -16,7 +16,7 @@ The page may take some time to start and you may have to trust the notebook to s
 The source is available in the notebooks repository in `.ipynb` format.
 
 [![](bikeprediction/vis/mymap.png)](https://nbviewer.jupyter.org/github/LauraElKaim/Challenge_prediction/blob/main/notebooks/mymap.ipynb)  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/LauraElKaim/Challenge_prediction/e8ceac6227e5c74616ee9ad01fd74a9213a216ad?filepath=notebooks%2Fmymap.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke2.mybinder.org/user/lauraelkaim-challenge_prediction-3dfd0rt9/notebooks/notebooks/mymap.ipynb?#)
 
 &nbsp;
 To compile the `script.py` file you can clone the git repository or download the bikeprediction package available at the following link : https://test.pypi.org/project/bikeprediction-elk/0.0.1/  
