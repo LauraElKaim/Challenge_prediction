@@ -6,5 +6,5 @@ For the **prediction part**, we will use the data from https://docs.google.com/s
 
 For the **visualization part**, we will use the data from http://data.montpellier3m.fr/dataset/comptages-velo-et-pieton-issus-des-eco-compteurs/resource/75f5e367-99fb-482f-ba5c to visualize the bike traffic in Montpellier.
 
-To compile the `script.py` file you can clone the git repository or download the bikeprediction package available at the following link : https://test.pypi.org/project/bikeprediction-elk/0.0.1/
+To compile the `script.py` file you can clone the git repository or download the bikeprediction package available at the following link : https://test.pypi.org/project/bikeprediction-elk/0.0.1/  
 The `requirements.txt` file contains all the python packages you will need to compile this script.
