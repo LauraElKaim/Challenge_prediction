@@ -2,7 +2,7 @@ from setuptools import setup
 from bikeprediction import __version__ as current_version
 
 setup(
-  name='bikeprediction_elk',
+  name='bikeprediction_ek',
   version=current_version,
   description='Prediction and visualization of bike traffic in Montpellier',
   url='https://github.com/LauraElKaim/Challenge_prediction.git',
