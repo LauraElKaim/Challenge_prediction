@@ -3,7 +3,7 @@ import seaborn as sns
 
 def plot_weekday(self):
     df = self[(self["Hour"] < "09:30:00") & (self["Hour"] > "08:30:00")]
-    df = df.drop_duplicates(subset = ['Date'], keep = 'last')
+    # df = df.drop_duplicates(subset = ['Date'], keep = 'last')
     mond_df = df[df['Weekday'] == 0]
     tues_df = df[df['Weekday'] == 1]
     wedn_df = df[df['Weekday'] == 2]

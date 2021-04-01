@@ -1,12 +1,22 @@
 #%% prediction
 import bikeprediction
+
 bike_df = bikeprediction.load_bike().save_as_df()
 bike_formated_df = bikeprediction.df_formatting(bike_df)
 bike_date_formated_df = bikeprediction.date_formated(bike_formated_df)
 bike_df_weekday = bikeprediction.weekday_column(bike_date_formated_df)
 bike_weekday = bikeprediction.plot_weekday(bike_df_weekday)
+
+# Linear regression
 linear_regression = bikeprediction.linear_regression(bike_weekday)
-bike_weekday
+
+# Adjusted linear regression
+linear_regression_adjusted = bikeprediction.linear_regression_adjustment(bike_weekday)
+
+# Multivaried regression
+bike_df_seconds = bikeprediction.nb_seconds(bike_df_weekday)
+multivaried_regression = bikeprediction.multivariate_regression(bike_df_seconds)
+print("The prediction is",bikeprediction.predict(737882, 9 * 3600))
 #%% vis
 import bikeprediction
 import shutil

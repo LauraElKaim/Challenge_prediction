@@ -23,4 +23,3 @@ def linear_regression(self):
     prediction = predict(737882, slope, intercept)
     print("The prediction is : ",prediction)
     return r_value, p_value, std_err
-
